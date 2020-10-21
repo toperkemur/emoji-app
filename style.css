@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+a {
+    color: yellow;
+}
+
+#emoji-container {
+    font-size: 60px;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.buttons-wrapper {
+    margin-top: 20px;
+}
+
+#pushButton,
+#unshiftButton {
+    padding: 8px 16px;
+    background: greenyellow;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pushButton:focus,
+#pushButton:hover,
+#unshiftButton:focus,
+#unshiftButton:hover {
+    color: white;
+    outline: none;
+}
+
+#popButton,
+#shiftButton {
+    padding: 8px 16px;
+    background: orangered;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#popButton:focus,
+#popButton:hover,
+#shiftButton:focus,
+#shiftButton:hover {
+    color: white;
+    outline: none;
+}
